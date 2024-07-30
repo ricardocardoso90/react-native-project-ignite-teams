@@ -1,12 +1,20 @@
-# Projeto Ignite Teams.
+## Projeto: Ignite Teams
 
-Tecnologias utilizadas: React Native + TypeScript.
+**Tecnologias utilizadas:**
 
-# Instalação:
+- [Expo]()
+- [Typescript]()
+- [React Native]()
+- [Phosphor React]()
+- [Async Storage]()
+- [Styled Components]()
+- [React Navigation]()
 
-- `npx create-expo-app --template`
+## Instalação:
+
+- `npx create-expo-app@latest`
 - `npm i ou npm install`
 
-### Para rodar:
+## Para rodar:
 
-- `npx expo start`
+- `npm start`
