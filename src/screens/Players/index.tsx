@@ -1,9 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import { Alert, FlatList, TextInput } from "react-native";
-import { useNavigation, useRoute } from "@react-navigation/native";
-
 import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 
+import { useNavigation, useRoute } from "@react-navigation/native";
 import { playerAddByGroup } from "@storage/player/playerAddByGroup";
 import { PlayerStorageDTO } from "@storage/player/PlayerStorageDTO";
 import { groupRemoveByName } from "@storage/group/groupRemoveByName";

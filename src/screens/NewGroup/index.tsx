@@ -1,14 +1,14 @@
-import { useState } from "react"
-import { Alert } from "react-native"
-import { AppError } from "@utils/AppError"
-import { useNavigation } from "@react-navigation/native"
-import { groupCreate } from "@storage/group/groupCreate"
-import { Container, Content, Icon } from "./styles"
+import { useState } from "react";
+import { Alert } from "react-native";
+import { Container, Content, Icon } from "./styles";
 
-import { Header } from "@components/Header"
-import { Highlight } from "@components/Hightlight"
-import { Button } from "@components/Button"
-import { Input } from "@components/Input"
+import { AppError } from "@utils/AppError";
+import { Header } from "@components/Header";
+import { Highlight } from "@components/Hightlight";
+import { Input } from "@components/Input";
+import { Button } from "@components/Button";
+import { groupCreate } from "@storage/group/groupCreate";
+import { useNavigation } from "@react-navigation/native"
 
 export function NewGroup() {
   const navigation = useNavigation();
@@ -31,7 +31,7 @@ export function NewGroup() {
         console.log(error);
       }
     }
-  }
+  };
 
   return (
     <Container>
@@ -54,4 +54,4 @@ export function NewGroup() {
       </Content>
     </Container>
   )
-}
+};

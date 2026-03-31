@@ -5,7 +5,7 @@ type Props = TouchableOpacityProps & {
   title: string;
   type?: ButtonTypeStyleProps;
   handleNewTurma?: () => void;
-}
+};
 
 export function Button({ title, type = 'PRIMARY', handleNewTurma, ...rest }: Props) {  
   return (
@@ -19,4 +19,4 @@ export function Button({ title, type = 'PRIMARY', handleNewTurma, ...rest }: Pro
       </Title>
     </Container>
   )
-}
+};

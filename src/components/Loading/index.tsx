@@ -6,4 +6,4 @@ export function Loading() {
       <LoadingIndicator />
     </Container>
   )
-}
+};

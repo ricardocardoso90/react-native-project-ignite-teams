@@ -4,7 +4,7 @@ import { ButtonIcon } from "@components/ButtonIcon";
 interface Props {
   name: string;
   onRemove: () => void;
-}
+};
 
 export function PlayerCard({ name, onRemove }: Props) {
   return (
@@ -22,4 +22,4 @@ export function PlayerCard({ name, onRemove }: Props) {
       />
     </Container>
   )
-}
+};

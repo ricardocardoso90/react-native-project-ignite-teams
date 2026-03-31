@@ -1,14 +1,16 @@
 import { Container } from "./styles";
 import { useState, useCallback } from "react";
 import { Alert, FlatList } from "react-native";
+
+
 import { Header } from "@components/Header";
 import { GroupCard } from "@components/GroupCard";
 import { Highlight } from "@components/Hightlight";
 import { ListEmpty } from "@components/ListEmpty";
 import { Button } from "@components/Button";
-import { useNavigation, useFocusEffect } from "@react-navigation/native";
-import { groupsGetAll } from "@storage/group/groupsGetAll";
 import { Loading } from "@components/Loading";
+import { groupsGetAll } from "@storage/group/groupsGetAll";
+import { useNavigation, useFocusEffect } from "@react-navigation/native";
 
 export function Groups() {
   const [isLoading, setIsLoading] = useState(true);

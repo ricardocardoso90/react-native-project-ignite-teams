@@ -20,4 +20,4 @@ export async function groupCreate(newGroup: string) {
   } catch (error) {
     throw error;
   }
-}
+};

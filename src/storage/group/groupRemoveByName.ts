@@ -14,4 +14,4 @@ export async function groupRemoveByName(groupDeleted: string) {
   } catch (error) {
     throw error;
   }
-}
+};

@@ -12,4 +12,4 @@ export async function playersGetByGroup(group: string) {
   } catch (error) {
     throw error;
   }
-}
+};
