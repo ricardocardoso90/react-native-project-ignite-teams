@@ -11,7 +11,9 @@ export function Filter({ title, isActive = false, ...rest }: Props) {
       {...rest}
       isActive={isActive}
     >
-      <Title>{title}</Title>
+      <Title>
+        {title}
+      </Title>
     </Container>
   )
 };

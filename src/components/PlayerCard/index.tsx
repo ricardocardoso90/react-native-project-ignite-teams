@@ -13,7 +13,9 @@ export function PlayerCard({ name, onRemove }: Props) {
         name="person"
       />
 
-      <Name>{name}</Name>
+      <Name>
+        {name}
+      </Name>
 
       <ButtonIcon
         icon="close"

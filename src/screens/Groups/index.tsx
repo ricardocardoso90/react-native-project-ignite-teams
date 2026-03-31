@@ -19,7 +19,7 @@ export function Groups() {
 
   function handleNewGroup() {
     navigation.navigate('new');
-  }
+  };
 
   async function fetchGroups() {
     try {
@@ -35,12 +35,12 @@ export function Groups() {
       )
     } finally {
       setIsLoading(false);
-    }
+    };
   };
 
   function handleOpenGroup(group: string) {
     navigation.navigate('players', { group });
-  }
+  };
 
   useFocusEffect(useCallback(() => {
     fetchGroups();
@@ -80,4 +80,4 @@ export function Groups() {
       />
     </Container>
   )
-}
+};

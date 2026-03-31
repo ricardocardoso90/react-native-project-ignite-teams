@@ -2,9 +2,10 @@ import { TouchableOpacity } from 'react-native';
 import styled, { css } from 'styled-components/native';
 
 export type ButtonTypeStyleProps = 'PRIMARY' | 'SECUNDARY';
+
 type Props = {
   type: ButtonTypeStyleProps;
-}
+};
 
 export const Container = styled(TouchableOpacity) <Props>`
   flex: 1;
